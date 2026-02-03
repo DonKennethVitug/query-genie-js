@@ -1,0 +1,8 @@
+services:
+  query-genie-web:
+    container_name: query-genie-web
+    image: nginx:alpine
+    ports:
+      - "3000:80"
+    volumes:
+      - .:/usr/share/nginx/html:ro
