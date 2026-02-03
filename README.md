@@ -1,1 +1,0 @@
-# query-genie-js
